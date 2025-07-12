@@ -1,7 +1,44 @@
-<html>
-  <head><title>我的第一個網站</title></head>
-  <body>
-    <h1>你好，世界！</h1>
-    <p>這是我用 GitHub Pages 架的第一個網站</p>
-  </body>
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>我的一頁式網站</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <h1>歡迎來到我的網站</h1>
+    <p>這是一個簡單的一頁式網站範本</p>
+    <a href="#contact" class="btn">聯絡我</a>
+  </header>
+
+  <section id="about">
+    <h2>關於我</h2>
+    <p>我是一位熱愛設計與網頁開發的創作者，擁有多年經驗。</p>
+  </section>
+
+  <section id="services">
+    <h2>服務項目</h2>
+    <ul>
+      <li>網頁設計</li>
+      <li>品牌規劃</li>
+      <li>數位行銷</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>聯絡我</h2>
+    <form>
+      <input type="text" placeholder="你的名字" required />
+      <input type="email" placeholder="你的 Email" required />
+      <textarea placeholder="留言內容" required></textarea>
+      <button type="submit">送出</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 我的網站 | 保留所有權利</p>
+  </footer>
+</body>
 </html>
